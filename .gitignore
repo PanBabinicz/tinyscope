@@ -1,1 +1,2 @@
-hardware/kicad/*/*-backups*
+hardware/kicad/**/*-backups*
+hardware/kicad/**/\#auto_saved_files\#
