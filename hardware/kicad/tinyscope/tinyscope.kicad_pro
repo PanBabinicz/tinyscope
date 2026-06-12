@@ -326,6 +326,18 @@
     [
       "bb072e32-cc57-415a-8554-0e84d374f333",
       ""
+    ],
+    [
+      "f3c865ab-23cb-49a1-bb6d-4ee24e55c7fa",
+      "MCUS"
+    ],
+    [
+      "7c1b1425-60eb-4f71-b125-42ba246f39fb",
+      "Power Input & Charging"
+    ],
+    [
+      "1c26ba79-0794-42b8-82e1-265696d83365",
+      "Regulation & Rails"
     ]
   ],
   "text_variables": {}
