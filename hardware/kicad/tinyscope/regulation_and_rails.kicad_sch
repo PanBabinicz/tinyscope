@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Regulation / Rails")
+    (date "2026-06-13")
+    (rev "v0.1")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
@@ -2081,12 +2087,12 @@
   )
 
   (symbol (lib_id "power:+3V0") (at 186.69 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid bbe5aef5-d9d0-4fe3-9e7f-e4df9bce601d)
     (property "Reference" "#PWR?" (at 186.69 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V0" (at 186.69 109.22 0)
+    (property "Value" "+3V0" (at 186.055 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 186.69 114.3 0)

@@ -7,7 +7,7 @@
   (title_block
     (title "tinyscope")
     (date "2026-05-31")
-    (rev "0.1")
+    (rev "v0.1")
   )
 
   (lib_symbols
@@ -130,7 +130,7 @@
     )
     (instances
       (project "tinyscope"
-        (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "4"))
+        (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "3"))
       )
     )
   )
@@ -188,7 +188,7 @@
     )
     (instances
       (project "tinyscope"
-        (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "3"))
+        (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "2"))
       )
     )
   )
@@ -210,19 +210,25 @@
     )
   )
 
-  (sheet (at 109.22 139.7) (size 12.7 5.08) (fields_autoplaced)
+  (sheet (at 17.78 111.76) (size 261.62 10.16)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 194 1.0000))
     (uuid f3c865ab-23cb-49a1-bb6d-4ee24e55c7fa)
-    (property "Sheetname" "MCUS" (at 109.22 138.9884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "MCUS" (at 17.78 110.4334 0)
+      (effects (font (size 2.5 2.5) bold) (justify left bottom))
     )
-    (property "Sheetfile" "mcus.kicad_sch" (at 109.22 145.3646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+    (property "Sheetfile" "mcus.kicad_sch" (at 17.78 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "STM32H743" "Acquisition MCU" (at 50.8 116.84 0) (show_name)
+      (effects (font (size 2.5 2.5) bold))
+    )
+    (property "nRF52840" "Raytac MDBT50Q (BLE 5 cert antenna)" (at 226.06 116.84 0) (show_name)
+      (effects (font (size 2.5 2.5) bold))
     )
     (instances
       (project "tinyscope"
-        (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "2"))
+        (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "4"))
       )
     )
   )
