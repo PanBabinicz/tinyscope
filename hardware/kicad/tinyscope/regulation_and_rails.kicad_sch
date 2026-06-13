@@ -793,7 +793,7 @@
     (stroke (width 0) (type default))
     (uuid 1f2f4cd8-76f5-430f-bbb1-20c4fed752a1)
   )
-  (wire (pts (xy 224.79 58.42) (xy 232.41 58.42))
+  (wire (pts (xy 220.98 58.42) (xy 232.41 58.42))
     (stroke (width 0) (type default))
     (uuid 1f533274-177a-4022-a635-2eae8eef3586)
   )
@@ -801,7 +801,7 @@
     (stroke (width 0) (type default))
     (uuid 23e4d803-b476-42ff-a49a-b5307b7bd37a)
   )
-  (wire (pts (xy 115.57 129.54) (xy 95.25 129.54))
+  (wire (pts (xy 119.38 129.54) (xy 95.25 129.54))
     (stroke (width 0) (type default))
     (uuid 24baa341-1e9e-4f26-9896-09b61cd49453)
   )
@@ -909,7 +909,7 @@
     (stroke (width 0) (type default))
     (uuid 5dd76001-6d65-40bb-80b6-c0a6368d55f9)
   )
-  (wire (pts (xy 115.57 119.38) (xy 115.57 129.54))
+  (wire (pts (xy 119.38 119.38) (xy 119.38 129.54))
     (stroke (width 0) (type default))
     (uuid 5efc4153-89a8-47e7-abe0-1f54dae3c85f)
   )
@@ -1129,7 +1129,7 @@
     (stroke (width 0) (type default))
     (uuid c797ba0a-0703-4048-9f71-6160eb37e117)
   )
-  (wire (pts (xy 95.25 111.76) (xy 115.57 111.76))
+  (wire (pts (xy 95.25 111.76) (xy 119.38 111.76))
     (stroke (width 0) (type default))
     (uuid c7af5fd7-e1bb-407f-bbed-62675e1c0719)
   )
@@ -1225,7 +1225,7 @@
     (stroke (width 0) (type default))
     (uuid ec115c60-07a3-47fe-a50e-6ef1d0dd275f)
   )
-  (wire (pts (xy 115.57 111.76) (xy 115.57 114.3))
+  (wire (pts (xy 119.38 111.76) (xy 119.38 114.3))
     (stroke (width 0) (type default))
     (uuid ef18063b-ebae-43da-aec3-f73a96f3a131)
   )
@@ -1368,7 +1368,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 0b034692-eaa9-4b6d-ba61-dc011ef932d6)
   )
-  (label "TPS63802_VOUT" (at 224.79 58.42 0) (fields_autoplaced)
+  (label "TPS63802_VOUT_5V5" (at 220.98 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 229a7028-6980-4db8-98e1-e101d8321803)
   )
@@ -1380,7 +1380,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 3adef709-c21b-44c9-bd7c-a2fedf260d50)
   )
-  (label "TPS63802_VOUT" (at 115.57 111.76 180) (fields_autoplaced)
+  (label "TPS63802_VOUT_5V5" (at 119.38 111.76 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify right bottom))
     (uuid cd4c176c-4a79-47be-ad07-a24f4d8037ba)
   )
@@ -1388,7 +1388,7 @@
   (symbol (lib_id "Device:C_Small") (at 153.67 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05918def-94cc-4828-8b71-98f44f34598e)
-    (property "Reference" "C15" (at 151.765 60.96 0)
+    (property "Reference" "C?" (at 151.765 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 151.765 63.5 0)
@@ -1405,7 +1405,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C18") (unit 1)
@@ -1417,7 +1417,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0caf0618-0b72-4e73-a250-cdd653f8bb1c)
-    (property "Reference" "C14" (at 112.395 57.15 0)
+    (property "Reference" "C?" (at 112.395 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 116.205 59.69 0)
@@ -1434,7 +1434,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C14") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C15") (unit 1)
@@ -1446,7 +1446,7 @@
   (symbol (lib_id "power:GND") (at 95.25 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18ffdef8-6522-49b8-96da-88cc27b2d0f0)
-    (property "Reference" "#PWR026" (at 95.25 80.01 0)
+    (property "Reference" "#PWR?" (at 95.25 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 78.74 0)
@@ -1462,7 +1462,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR027") (unit 1)
@@ -1474,7 +1474,7 @@
   (symbol (lib_id "Device:R_Small") (at 191.77 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d27cf2b-36ac-4db3-a6d2-aaf4791815bd)
-    (property "Reference" "R19" (at 193.04 54.61 0)
+    (property "Reference" "R?" (at 193.04 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "284k" (at 193.04 57.15 0)
@@ -1491,7 +1491,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R19") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R22") (unit 1)
@@ -1503,7 +1503,7 @@
   (symbol (lib_id "Device:L_Small") (at 100.33 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 245015c8-3dd0-4d89-b3dd-130baad2cce1)
-    (property "Reference" "L4" (at 102.235 115.57 0)
+    (property "Reference" "L?" (at 102.235 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n" (at 103.505 118.11 0)
@@ -1520,7 +1520,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "L4") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "L3") (unit 1)
@@ -1532,7 +1532,7 @@
   (symbol (lib_id "power:GND") (at 49.53 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2589ac49-54c4-41f5-b902-e874fe0a4802)
-    (property "Reference" "#PWR025" (at 49.53 80.01 0)
+    (property "Reference" "#PWR?" (at 49.53 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 78.74 0)
@@ -1548,7 +1548,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR025") (unit 1)
@@ -1560,7 +1560,7 @@
   (symbol (lib_id "power:GND") (at 181.61 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26f277b1-869f-4e99-a766-1785cc0ee904)
-    (property "Reference" "#PWR031" (at 181.61 82.55 0)
+    (property "Reference" "#PWR?" (at 181.61 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 81.28 0)
@@ -1576,7 +1576,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR035") (unit 1)
@@ -1588,7 +1588,7 @@
   (symbol (lib_id "power:GND") (at 201.93 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27cc58f9-9d04-4381-8e12-7643b96fdcf8)
-    (property "Reference" "#PWR033" (at 201.93 82.55 0)
+    (property "Reference" "#PWR?" (at 201.93 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 81.28 0)
@@ -1604,7 +1604,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR038") (unit 1)
@@ -1616,7 +1616,7 @@
   (symbol (lib_id "Device:C_Small") (at 201.93 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 311330fd-e834-40fc-8457-b479eedcce14)
-    (property "Reference" "C20" (at 203.835 59.69 0)
+    (property "Reference" "C?" (at 203.835 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2" (at 207.645 62.23 0)
@@ -1633,7 +1633,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C20") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C22") (unit 1)
@@ -1645,7 +1645,7 @@
   (symbol (lib_id "power:GND") (at 250.19 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 389a0117-6603-4e5a-a052-e7787483c91f)
-    (property "Reference" "#PWR040" (at 250.19 80.01 0)
+    (property "Reference" "#PWR?" (at 250.19 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 78.74 0)
@@ -1661,7 +1661,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR039") (unit 1)
@@ -1673,7 +1673,7 @@
   (symbol (lib_id "Reference_Voltage:REF3030") (at 176.53 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43389c1e-6476-41fb-8fd4-1f68ca166346)
-    (property "Reference" "U8" (at 181.61 110.49 0)
+    (property "Reference" "U?" (at 181.61 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "REF3030" (at 182.88 123.19 0)
@@ -1691,7 +1691,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "U8") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "U8") (unit 1)
@@ -1703,7 +1703,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ab0b569-1c76-4df8-a9f4-26c91b42f304)
-    (property "Reference" "R22" (at 48.26 123.19 0)
+    (property "Reference" "R?" (at 48.26 123.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "91k" (at 48.26 125.73 0)
@@ -1720,7 +1720,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R22") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R19") (unit 1)
@@ -1732,7 +1732,7 @@
   (symbol (lib_id "Device:C_Small") (at 143.51 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c692c1e-84b7-4e0f-9e96-d78b011c8162)
-    (property "Reference" "C16" (at 141.605 54.61 0)
+    (property "Reference" "C?" (at 141.605 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4u7" (at 141.605 57.15 0)
@@ -1749,7 +1749,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C16") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C17") (unit 1)
@@ -1761,7 +1761,7 @@
   (symbol (lib_id "Device:R_Small") (at 59.69 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 648f7704-9ee4-461c-9289-4673dfa14056)
-    (property "Reference" "R23" (at 58.42 107.95 0)
+    (property "Reference" "R?" (at 58.42 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 58.42 110.49 0)
@@ -1778,7 +1778,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R23") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R21") (unit 1)
@@ -1790,7 +1790,7 @@
   (symbol (lib_id "Device:L_Small") (at 100.33 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67aacef6-e7d1-44aa-aee8-6a0a5fe66c61)
-    (property "Reference" "L2" (at 102.235 57.15 0)
+    (property "Reference" "L?" (at 102.235 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470n" (at 103.505 59.69 0)
@@ -1807,7 +1807,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "L2") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "L2") (unit 1)
@@ -1819,7 +1819,7 @@
   (symbol (lib_id "power:GND") (at 95.25 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77eef128-1ccf-4d4c-a29c-8b29a51ae81c)
-    (property "Reference" "#PWR035" (at 95.25 138.43 0)
+    (property "Reference" "#PWR?" (at 95.25 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 137.16 0)
@@ -1835,7 +1835,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR028") (unit 1)
@@ -1847,7 +1847,7 @@
   (symbol (lib_id "power:GND") (at 49.53 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 785e4de5-addb-414a-8d34-6ff7270c242e)
-    (property "Reference" "#PWR034" (at 49.53 138.43 0)
+    (property "Reference" "#PWR?" (at 49.53 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 137.16 0)
@@ -1863,7 +1863,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR026") (unit 1)
@@ -1875,7 +1875,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8014dfd7-97b7-4eb7-9090-02cbfa417207)
-    (property "Reference" "R21" (at 48.26 113.03 0)
+    (property "Reference" "R?" (at 48.26 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "910k" (at 48.26 115.57 0)
@@ -1892,7 +1892,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R21") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R18") (unit 1)
@@ -1904,7 +1904,7 @@
   (symbol (lib_id "Device:C_Small") (at 161.29 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 894768ed-9456-46f9-a5ca-f1797b93d150)
-    (property "Reference" "C21" (at 163.195 118.11 0)
+    (property "Reference" "C?" (at 163.195 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 163.195 120.65 0)
@@ -1921,7 +1921,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C21") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C19") (unit 1)
@@ -1933,7 +1933,7 @@
   (symbol (lib_id "power:GND") (at 168.91 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e027936-a5c6-470b-9a5f-3acc1cc990ac)
-    (property "Reference" "#PWR028" (at 168.91 82.55 0)
+    (property "Reference" "#PWR?" (at 168.91 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 81.28 0)
@@ -1949,7 +1949,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR033") (unit 1)
@@ -1961,7 +1961,7 @@
   (symbol (lib_id "Device:C_Small") (at 41.91 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92838e8f-f4a3-4425-80e2-6ef2ca97ec40)
-    (property "Reference" "C13" (at 40.005 59.69 0)
+    (property "Reference" "C?" (at 40.005 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 40.005 62.23 0)
@@ -1978,7 +1978,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C13") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C13") (unit 1)
@@ -1990,7 +1990,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4a4a165-539f-4475-a206-b4773284c6e9)
-    (property "Reference" "R16" (at 48.26 54.61 0)
+    (property "Reference" "R?" (at 48.26 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "511k" (at 48.26 57.15 0)
@@ -2007,7 +2007,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R16") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R16") (unit 1)
@@ -2019,7 +2019,7 @@
   (symbol (lib_id "Regulator_SwitchedCapacitor:LM27761") (at 166.37 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6b75294-5a19-493f-b877-eaa2e8f256ec)
-    (property "Reference" "U7" (at 172.72 46.99 0)
+    (property "Reference" "U?" (at 172.72 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM27761" (at 173.99 69.85 0)
@@ -2043,7 +2043,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "U7") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "U7") (unit 1)
@@ -2055,7 +2055,7 @@
   (symbol (lib_id "power:GND") (at 191.77 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b69552cd-d8b4-4599-9bc7-9ff9dc3bd41b)
-    (property "Reference" "#PWR032" (at 191.77 82.55 0)
+    (property "Reference" "#PWR?" (at 191.77 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 81.28 0)
@@ -2071,7 +2071,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR037") (unit 1)
@@ -2083,7 +2083,7 @@
   (symbol (lib_id "power:+3V0") (at 186.69 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbe5aef5-d9d0-4fe3-9e7f-e4df9bce601d)
-    (property "Reference" "#PWR039" (at 186.69 118.11 0)
+    (property "Reference" "#PWR?" (at 186.69 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 186.69 109.22 0)
@@ -2099,7 +2099,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR036") (unit 1)
@@ -2111,7 +2111,7 @@
   (symbol (lib_id "TPS63802DLAR:TPS63802DLAR") (at 64.77 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd0bb7e1-efa6-44f3-8fa6-ad5332f6eb37)
-    (property "Reference" "U6" (at 86.36 107.95 0)
+    (property "Reference" "U?" (at 86.36 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS63802DLAR" (at 80.645 125.73 0)
@@ -2151,7 +2151,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "U6") (unit 1)
@@ -2163,7 +2163,7 @@
   (symbol (lib_id "TPS63802DLAR:TPS63802DLAR") (at 64.77 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0756594-74fb-4300-83f5-af296e8204fc)
-    (property "Reference" "U5" (at 86.36 49.53 0)
+    (property "Reference" "U?" (at 86.36 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS63802DLAR" (at 80.645 67.31 0)
@@ -2203,7 +2203,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "U5") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "U5") (unit 1)
@@ -2215,7 +2215,7 @@
   (symbol (lib_id "Device:C_Small") (at 41.91 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c575bf00-d71b-4667-a489-9d8ea728c38b)
-    (property "Reference" "C18" (at 40.005 118.11 0)
+    (property "Reference" "C?" (at 40.005 118.11 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 40.005 120.65 0)
@@ -2232,7 +2232,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C18") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C14") (unit 1)
@@ -2244,7 +2244,7 @@
   (symbol (lib_id "Device:R_Small") (at 191.77 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc519711-cb45-43e9-89b9-9650f166fd8d)
-    (property "Reference" "R20" (at 193.04 67.31 0)
+    (property "Reference" "R?" (at 193.04 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "91k" (at 193.04 69.85 0)
@@ -2261,7 +2261,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R20") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R23") (unit 1)
@@ -2273,7 +2273,7 @@
   (symbol (lib_id "Device:C_Small") (at 186.69 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d174d41a-1c1e-4d05-b73d-c49e62c365a5)
-    (property "Reference" "C22" (at 188.595 118.11 0)
+    (property "Reference" "C?" (at 188.595 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 188.595 120.65 0)
@@ -2290,7 +2290,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C22") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C21") (unit 1)
@@ -2302,7 +2302,7 @@
   (symbol (lib_id "Device:C_Small") (at 232.41 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d956afcd-2144-49f1-a1ad-c550aff25679)
-    (property "Reference" "C23" (at 230.505 62.23 0)
+    (property "Reference" "C?" (at 230.505 62.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2u2" (at 230.505 64.77 0)
@@ -2319,7 +2319,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C23") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C23") (unit 1)
@@ -2331,7 +2331,7 @@
   (symbol (lib_id "power:+5V") (at 135.89 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da7664a9-6ee5-4e11-a442-3b3df391957c)
-    (property "Reference" "#PWR030" (at 135.89 52.07 0)
+    (property "Reference" "#PWR?" (at 135.89 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 135.255 44.45 0)
@@ -2347,7 +2347,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR030") (unit 1)
@@ -2356,19 +2356,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 115.57 116.84 0) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 119.38 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc63f361-2a57-47e4-bf42-63b658424f18)
-    (property "Reference" "C19" (at 117.475 115.57 0)
+    (property "Reference" "C?" (at 121.285 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u" (at 121.285 118.11 0)
+    (property "Value" "22u" (at 125.095 118.11 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 115.57 116.84 0)
+    (property "Footprint" "" (at 119.38 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 115.57 116.84 0)
+    (property "Datasheet" "~" (at 119.38 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 05a2fb76-82f1-487e-87d1-f25099190c9a))
@@ -2376,7 +2376,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C19") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C16") (unit 1)
@@ -2388,7 +2388,7 @@
   (symbol (lib_id "Device:C_Small") (at 273.05 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de14f663-0b24-4b68-83b4-2190d2fdb9db)
-    (property "Reference" "C24" (at 274.955 62.23 0)
+    (property "Reference" "C?" (at 274.955 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2" (at 274.955 64.77 0)
@@ -2405,7 +2405,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C25") (unit 1)
@@ -2417,7 +2417,7 @@
   (symbol (lib_id "power:+3V3") (at 161.29 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfb871fb-c0c9-478a-bec4-237848521f6e)
-    (property "Reference" "#PWR038" (at 161.29 107.95 0)
+    (property "Reference" "#PWR?" (at 161.29 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 160.655 100.33 0)
@@ -2433,7 +2433,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR032") (unit 1)
@@ -2445,7 +2445,7 @@
   (symbol (lib_id "Device:C_Small") (at 181.61 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0902ce9-eeed-40e4-af5c-27e2d3234f19)
-    (property "Reference" "C17" (at 183.515 67.31 0)
+    (property "Reference" "C?" (at 183.515 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 187.325 69.85 0)
@@ -2462,7 +2462,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C20") (unit 1)
@@ -2474,7 +2474,7 @@
   (symbol (lib_id "power:GND") (at 143.51 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3198c42-7e4c-4b19-bc20-2f11baca1666)
-    (property "Reference" "#PWR029" (at 143.51 67.31 0)
+    (property "Reference" "#PWR?" (at 143.51 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 66.04 0)
@@ -2490,7 +2490,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR031") (unit 1)
@@ -2502,7 +2502,7 @@
   (symbol (lib_id "Regulator_Linear:ADP7142ARDZ-5.0") (at 250.19 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8989bb4-51d4-478a-8885-f9bc1ee45439)
-    (property "Reference" "U9" (at 256.54 54.61 0)
+    (property "Reference" "U?" (at 256.54 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADP7142" (at 254.635 67.31 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "U9") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "U9") (unit 1)
@@ -2538,7 +2538,7 @@
   (symbol (lib_id "Device:C_Small") (at 262.89 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f418f26f-b88d-4c1b-bc50-bad1b0ec620c)
-    (property "Reference" "C25" (at 264.795 67.31 0)
+    (property "Reference" "C?" (at 264.795 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 264.795 69.85 0)
@@ -2555,7 +2555,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "C25") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "C24") (unit 1)
@@ -2567,7 +2567,7 @@
   (symbol (lib_id "power:+5V") (at 273.05 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f673095f-aaad-48f3-a021-d0645bdfd3f0)
-    (property "Reference" "#PWR036" (at 273.05 59.69 0)
+    (property "Reference" "#PWR?" (at 273.05 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 272.415 52.07 0)
@@ -2583,7 +2583,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR040") (unit 1)
@@ -2595,7 +2595,7 @@
   (symbol (lib_id "Device:R_Small") (at 59.69 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f711b8eb-b6ac-4106-8708-b990d0076fa3)
-    (property "Reference" "R18" (at 58.42 49.53 0)
+    (property "Reference" "R?" (at 58.42 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 58.42 52.07 0)
@@ -2612,7 +2612,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R20") (unit 1)
@@ -2624,7 +2624,7 @@
   (symbol (lib_id "power:+3V3") (at 110.49 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8301464-2f55-455e-8cce-431377c26043)
-    (property "Reference" "#PWR027" (at 110.49 54.61 0)
+    (property "Reference" "#PWR?" (at 110.49 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 109.855 46.99 0)
@@ -2640,7 +2640,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR029") (unit 1)
@@ -2652,7 +2652,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdd9f6b1-a9d4-4057-a05c-c20a42686f6d)
-    (property "Reference" "R17" (at 48.26 64.77 0)
+    (property "Reference" "R?" (at 48.26 64.77 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "91k" (at 48.26 67.31 0)
@@ -2669,7 +2669,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "R17") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "R17") (unit 1)
@@ -2681,7 +2681,7 @@
   (symbol (lib_id "power:GND") (at 173.99 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe2db13e-e39c-4e00-87bb-82aa972649b4)
-    (property "Reference" "#PWR037" (at 173.99 135.89 0)
+    (property "Reference" "#PWR?" (at 173.99 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 134.62 0)
@@ -2697,7 +2697,7 @@
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/bb072e32-cc57-415a-8554-0e84d374f333/1c26ba79-0794-42b8-82e1-265696d83365"
           (reference "#PWR034") (unit 1)
