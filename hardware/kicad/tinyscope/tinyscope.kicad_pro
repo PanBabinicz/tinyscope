@@ -337,7 +337,7 @@
     ],
     [
       "f3c865ab-23cb-49a1-bb6d-4ee24e55c7fa",
-      "MCUS"
+      "Acquisition MCU"
     ],
     [
       "1cc82483-d533-4a3f-8e92-68be5ffe812c",
@@ -346,6 +346,10 @@
     [
       "ef251a6f-7836-4e9b-b53d-220da1830612",
       "HMI"
+    ],
+    [
+      "8ab32ff2-1997-48a8-8f3b-8df038411955",
+      "Wireless MCU"
     ]
   ],
   "text_variables": {}
