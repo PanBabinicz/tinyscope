@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Wireless MCU")
+    (rev "v0.1")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL" (in_bom no) (on_board yes)
       (property "Reference" "J" (at 2.54 11.43 0)
