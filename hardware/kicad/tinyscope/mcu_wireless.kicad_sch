@@ -907,7 +907,7 @@
     (property "Footprint" "" (at 172.72 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 172.72 52.07 0)
+    (property "Datasheet" "https://eu.mouser.com/ProductDetail/Micro-Crystal/CM8V-T1A-32.768k-9pF-20PPM-TB-QA?qs=7bTaA%2FLYtSYubImfsRD7KQ%3D%3D" (at 172.72 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9a38d362-7441-4770-898e-ca89506855f0))
