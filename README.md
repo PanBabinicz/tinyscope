@@ -67,6 +67,25 @@ It is designed to safely probe signals such as:
 - Observe correct input ranges and use the appropriate attenuator setting.
 - This is a hobbyist/educational project. Use at your own risk.
 
+## Controls
+
+> The front panel uses five rotary encoders, one per oscilloscope control, so adjustments feel like a traditional scope.
+
+Each control is a **Bourns PEC11R** 12 mm incremental (quadrature) encoder with 24 detents and an integrated momentary push switch.
+The push switch on every knob doubles as a shortcut (e.g. recenter a position, toggle fine/coarse on a scale, or set the trigger to 50%).
+
+| Encoder | Function | Push-switch shortcut |
+|---|---|---|
+| Vertical scale | Volts/division | Fine / coarse toggle |
+| Vertical position | Trace offset | Recenter to zero |
+| Horizontal scale | Time/division (timebase) | Fine / coarse toggle |
+| Horizontal position | Trace time offset | Recenter |
+| Trigger position | Trigger point along the sweep | Set to 50% |
+
+**Reading them:** The high-use encoders are decoded by the STM32's hardware **timer encoder mode** (A/B into a timer's two channels, zero CPU overhead);
+the rest are read via GPIO interrupts. All five push switches are plain GPIO inputs. Each A/B/switch line uses an RC filter for debounce.
+Encoder common pins tie to GND.
+
 ## Power architecture
 
 > The power input and charging stage handles three jobs: selecting a source, protecting against the automotive environment,
