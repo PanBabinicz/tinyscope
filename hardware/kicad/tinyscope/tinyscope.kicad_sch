@@ -135,15 +135,18 @@
     )
   )
 
-  (sheet (at 119.38 170.18) (size 12.7 5.08) (fields_autoplaced)
+  (sheet (at 17.78 152.4) (size 261.62 10.16)
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 194 1.0000))
     (uuid 1cc82483-d533-4a3f-8e92-68be5ffe812c)
-    (property "Sheetname" "Front End" (at 119.38 169.4684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "Front End" (at 17.78 151.0734 0)
+      (effects (font (size 2.5 2.5) bold) (justify left bottom))
     )
-    (property "Sheetfile" "front_end.kicad_sch" (at 119.38 175.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+    (property "Sheetfile" "front_end.kicad_sch" (at 17.78 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Front End A" "+/-40V" (at 45.72 157.48 0) (show_name)
+      (effects (font (size 2.5 2.5) bold))
     )
     (instances
       (project "tinyscope"
