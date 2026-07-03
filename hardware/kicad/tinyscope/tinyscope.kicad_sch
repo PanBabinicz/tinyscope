@@ -145,7 +145,10 @@
     (property "Sheetfile" "front_end.kicad_sch" (at 17.78 163.1446 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Front End A" "+/-40V" (at 45.72 157.48 0) (show_name)
+    (property "Front End A" "General Purpose" (at 48.26 157.48 0) (show_name)
+      (effects (font (size 2.5 2.5) bold))
+    )
+    (property "Front End B" "Ignition" (at 256.54 157.48 0) (show_name)
       (effects (font (size 2.5 2.5) bold))
     )
     (instances
