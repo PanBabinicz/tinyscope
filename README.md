@@ -104,8 +104,8 @@ Encoder common pins tie to GND.
 - [x] System architecture and block diagram
 - [x] Power input & charging schematic
 - [ ] Analog front-end schematic (CH A / CH B)
-- [ ] Acquisition MCU schematic
-- [ ] Wireless module schematic
+- [x] Acquisition MCU schematic
+- [x] Wireless module schematic
 - [ ] Display & user I/O schematic
 - [ ] PCB layout
 - [ ] First prototype bring-up
