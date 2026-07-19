@@ -2664,8 +2664,15 @@
     (at 53.34 71.12 0) (size 26.67 8.89)
     (stroke (width 0) (type default))
     (fill (type color) (color 255 255 194 1))
-    (effects (font (size 1.27 1.27)) (justify left top))
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left top))
     (uuid 66dda65e-e2f5-4def-b074-16df45923bd1)
+  )
+  (text_box "Description: Acquisition MCU - STM32H743VIT6. The oscilloscope engine (U12): dual simultaneous 16-bit ADCs, dual DAC, hardware trigger, and display/BLE interfaces. Powered from +3V3 with per-pin decoupling (C26-C32) and VCAP core-regulator caps (C37/C38, 2.2 µF). VREF+ = the precision +3V0 reference (ADC/DAC full-scale). 25 MHz HSE (X1) for the 480 MHz core; 32.768 kHz (X2) for the RTC. SWD via Tag-Connect J5; BOOT0 select via SW1 with RC filter. Channel inputs on fast ADC channels INP3/INP4; vertical-offset/trigger via DAC1_OUT1/OUT2. SPI2 → display, SPI4 → BLE module; five encoders and status LED (D9) on GPIO."
+    (at 53.34 114.3 0) (size 38.1 43.18)
+    (stroke (width 0) (type default))
+    (fill (type color) (color 255 255 194 1))
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left top))
+    (uuid a2e3c7ae-d815-4f71-9c47-e746155e1c81)
   )
 
   (label "STM32H743_SWD_NRST" (at 113.03 25.4 0) (fields_autoplaced)
