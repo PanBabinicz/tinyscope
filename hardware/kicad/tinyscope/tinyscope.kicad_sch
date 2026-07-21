@@ -232,6 +232,9 @@
     (property "ILI9341" "320×240 IPS Display" (at 53.34 137.16 0) (show_name)
       (effects (font (size 2.5 2.5) bold))
     )
+    (property "PEC11R" "Rotary Encoders" (at 251.46 137.16 0) (show_name)
+      (effects (font (face "KiCad Font") (size 2.5 2.5) bold))
+    )
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "6"))
