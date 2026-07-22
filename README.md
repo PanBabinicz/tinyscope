@@ -106,7 +106,7 @@ Encoder common pins tie to GND.
 - [X] Analog front-end schematic (CH A / CH B)
 - [x] Acquisition MCU schematic
 - [x] Wireless module schematic
-- [ ] Display & user I/O schematic
+- [x] Display & user I/O schematic
 - [ ] PCB layout
 - [ ] First prototype bring-up
 - [ ] STM32 acquisition firmware
