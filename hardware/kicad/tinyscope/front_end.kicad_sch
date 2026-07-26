@@ -1343,7 +1343,7 @@
   )
 
   (text_box "Description: Analog Front Ends - Channel A & B. Two matched signal chains conditioning BNC inputs (J6/J7) for the ADC. Each: 1 MΩ input (R61/R62) for ×10-probe compatibility, protection (1 kΩ series + SMAJ48CA TVS + BAV199-type clamp D10/D11 to ±5 V), an AD8066 unity-gain buffer, a summing/level-shift stage adding the DAC offset (DAC1_OUT1/OUT2 → vertical position) to center the bipolar signal in the 0-3.0 V ADC window, and a ~1.16 MHz Sallen-Key anti-alias filter (U15) into ADC12_INP3/INP4. Each op-amp is locally decoupled (4.7 µF + 100 nF per rail); runs on the clean ±5 V analog rails."
-    (at 184.15 21.59 0) (size 68.58 22.86)
+    (at 177.8 147.32 0) (size 104.14 15.24)
     (stroke (width 0) (type default))
     (fill (type color) (color 255 255 194 1))
     (effects (font (size 1.27 1.27) bold) (justify left top))

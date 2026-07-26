@@ -1654,7 +1654,7 @@
   )
 
   (text_box "Description: Human-Machine Interface (HMI)\nRotary encoders (×6): Bourns PEC11R incremental (quadrature) encoders with push switches form the front-panel controls - VPOSITION, VSCALE, HPOSITION, HSCALE, TRIG, and display. Each provides A/B quadrature outputs (rotation + direction) and a momentary push switch. All lines are RC-filtered: A/B use a lighter filter (10 kΩ + 10 nF) to preserve fast rotation pulses, while each switch uses a split RC (1 kΩ / 9 kΩ + 100 nF) for firm debouncing. Encoder commons tie to GND; A/B are read via the STM32 (timer encoder mode or GPIO interrupts) and the switches as GPIO inputs.\nDisplay (J8): Waveshare 16498 2.4\" IPS LCD (ILI9341, 320×240) on an SPI interface (SPI2: SCK/MISO/MOSI/NSS) plus RESET, DC/CNT, IRQ, and backlight control. Display logic powered from +5 V; SPI/control lines at +3V3 logic level."
-    (at 116.84 152.4 0) (size 55.88 40.64)
+    (at 177.8 139.7 0) (size 104.14 22.86)
     (stroke (width 0) (type default))
     (fill (type color) (color 255 255 194 1))
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left top))

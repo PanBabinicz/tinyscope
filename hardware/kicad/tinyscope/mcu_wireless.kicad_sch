@@ -1196,7 +1196,7 @@
     (uuid 4dd694f7-8df4-4ebc-a882-ad22873973dd)
   )
   (text_box "Description: Wireless Module - nRF52840 (BLE). Raytac MDBT50Q-1MV2 module (U11) providing the Bluetooth LE link to the smartphone. It communicates with the STM32H743 over SPI4 (SCK/MOSI/MISO/NSS plus an IRQ handshake line) as the SPI slave, relaying capture buffers and accepting control commands - no analog role. Powered from +3V3 with bulk decoupling (C47/C48) and the DC/DC-mode inductor (L4). Programmed/debugged via the Tag-Connect SWD header (J4) with RESET pull-up R26. A 32.768 kHz crystal (X3, C45/C46) provides the low-power clock. Status LED (D8) driven by P1.01 through Q2."
-    (at 187.96 121.92 0) (size 71.12 22.86)
+    (at 210.82 139.7 0) (size 71.12 22.86)
     (stroke (width 0) (type default))
     (fill (type color) (color 255 255 194 1))
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left top))
