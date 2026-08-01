@@ -219,6 +219,23 @@
     )
   )
 
+  (sheet (at 17.78 172.72) (size 152.4 10.16)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 255 194 1.0000))
+    (uuid a1f11614-ed2d-4751-a165-9ba53d179071)
+    (property "Sheetname" "Connections" (at 17.78 171.3934 0)
+      (effects (font (size 2.5 2.5) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "connections.kicad_sch" (at 17.78 183.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "tinyscope"
+        (path "/bb072e32-cc57-415a-8554-0e84d374f333" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 17.78 132.08) (size 261.62 10.16)
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 194 1.0000))
