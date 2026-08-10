@@ -107,7 +107,7 @@ Encoder common pins tie to GND.
 - [x] Acquisition MCU schematic
 - [x] Wireless module schematic
 - [x] Display & user I/O schematic
-- [x] The electrical rules check in KiCAD passes
+- [x] The electrical rules check in KiCAD passed
 - [ ] PCB layout
 - [ ] First prototype bring-up
 - [ ] STM32 acquisition firmware
