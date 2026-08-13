@@ -3707,7 +3707,7 @@
     (property "Value" "MAX17048G" (at 79.375 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SON50P200X200X80-9N-D" (at 85.09 254.94 0)
+    (property "Footprint" "Package_SON:SON50P200X200X80-9N-D" (at 85.09 254.94 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.analog.com/MAX17048/datasheet" (at 85.09 354.94 0)
