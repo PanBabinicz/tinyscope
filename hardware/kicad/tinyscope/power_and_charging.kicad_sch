@@ -3557,14 +3557,14 @@
     (property "Value" "Conn_01x02" (at 177.8 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 175.26 147.32 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" (at 175.26 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 175.26 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e43511ca-8516-4061-8808-efc6ed8e038f))
-    (pin "2" (uuid 0992d545-76e1-4977-94ae-f1d9fb93882b))
+    (pin "1" (uuid 6b09c669-6c67-4d65-af18-64b768c3cb41))
+    (pin "2" (uuid 722b26bf-82a4-465a-a23b-3e2e12f00fcf))
     (instances
       (project "tinyscope"
         (path "/bb072e32-cc57-415a-8554-0e84d374f333"
@@ -4384,7 +4384,7 @@
     (property "Value" "Conn_01x03" (at 220.98 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 218.44 148.59 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" (at 218.44 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 218.44 148.59 0)

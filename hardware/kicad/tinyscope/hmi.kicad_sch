@@ -4722,7 +4722,7 @@
     (property "Value" "Waveshare 16498" (at 62.23 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 63.5 167.64 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical_SMD" (at 63.5 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://botland.com.pl/wyswietlacze-ips/22735-wyswietlacz-dotykowy-rezystancyjny-lcd-32-320x240px-262k-waveshare-16498.html" (at 63.5 167.64 0)
